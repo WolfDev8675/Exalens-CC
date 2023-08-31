@@ -1,4 +1,4 @@
 mqtt:
   service:
-    host: 0.0.0.0
+    host: mosquitto_broker
     port: 1883

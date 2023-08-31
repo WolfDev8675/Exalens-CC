@@ -3,6 +3,10 @@
 Purpose: Defines the ID of the various sensors
 """
 
+# TOPICS
+TEMPERATURE_TOPIC = "sensors/temperature"
+HUMIDITY_TOPIC = "sensors/humidity"
+
 # TEMPERATURE
 SENSOR_TEMP_ROOM1 = "sensTemp-0001"
 SENSOR_TEMP_ROOM2 = "sensTemp-0002"
