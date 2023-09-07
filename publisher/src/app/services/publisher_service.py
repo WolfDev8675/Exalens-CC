@@ -4,21 +4,15 @@ from paho.mqtt import client as mqtt
 
 from configs.generic_config import GenericConfig
 
-# def connect_mqtt():
-#     def on_connect(client, userdata, flags, rc):
-#         if rc == 0:
-#             print("Connected to Broker")
-#         else:
-#             print("Failed to connect, return code %d\n", rc)
 
-#     _config = GenericConfig()    # Pulling configs
-#     client = mqtt.Client("PUB1")   # FIXED number for IDENTIFICATION 
-#     client.on_connect = on_connect
-#     client.connect(**_config.get_mqtt_config())
-#     return client
+def publish_data(topic:str,data:list):
+    """
+    PUBLISH 'data' to the 'topic' 
 
-
-def publish_data(topic,data):
+    Args:
+        data: list in bulk for the data to be published
+        topic: string topic to which data is to be published 
+    """
     _config = GenericConfig()    # Pulling configs
     client = mqtt.Client("PUB1")   # FIXED number for IDENTIFICATION 
     # client.on_connect = on_connect

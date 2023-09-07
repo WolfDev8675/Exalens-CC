@@ -14,7 +14,33 @@ services:
     build:
       context: ./publisher
       dockerfile: Dockerfile
-  
+  database_mongo:
+    image: mongodb/mongodb-community-server:6.0-ubi8
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=dbadmin
+      - MONGO_INITDB_ROOT_PASSWORD=a3Ngrc0Y9RPQYTr
+    volumes:
+      - type: bind
+        source: ./mongodb/data
+        target: /mongodb/data/db
+  cache_redis:
+    image: redis:6.2-alpine
+    restart: always
+    environment:
+      - REDIS_PASSWORD=J9oM3w1bCr9710A
+      - REDIS_DB=0
+      - REDIS_REPLICATION_MODE=master
+    command: redis-server --maxmemory 1445
+    ports:
+      - 6379:6379/tcp
+    volumes:
+      - ./redis/data:/data
+
+    
+
 
 # networks:
 #   mosquitto:

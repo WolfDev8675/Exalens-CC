@@ -1,0 +1,10 @@
+# IMAGE PULL
+FROM python
+
+# FILE MOVE
+COPY ./src/ /src
+
+# ENVIRONMENT SETUP
+
+
+# ACTIONABLE
