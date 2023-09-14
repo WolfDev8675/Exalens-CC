@@ -1,3 +1,6 @@
 paho-mqtt
 pyyaml
 pyaml-env
+apscheduler
+fastapi
+uvicorn

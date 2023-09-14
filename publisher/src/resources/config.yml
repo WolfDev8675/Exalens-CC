@@ -1,4 +1,9 @@
+server:
+  host: 0.0.0.0
+  port: 9050
 mqtt:
   service:
     host: mosquitto_broker
     port: 1883
+app:
+  application-name: PublisherApplication

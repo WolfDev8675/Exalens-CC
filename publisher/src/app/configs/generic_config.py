@@ -22,3 +22,11 @@ class GenericConfig:
             "host":self.config_dict["mqtt"]["service"]["host"],
             "port":self.config_dict["mqtt"]["service"]["port"]
         }
+
+    def get_server_port(self):
+        """ Pulls the Server port from the Config file"""
+        return self.config_dict["server"]["port"]
+
+    def get_server_host(self):
+        """ Pulls the Server hosted URL from the Config file"""
+        return self.config_dict["server"]["host"]

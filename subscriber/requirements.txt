@@ -1,0 +1,5 @@
+paho-mqtt
+redis
+pymongo
+pyyaml
+pyaml-env

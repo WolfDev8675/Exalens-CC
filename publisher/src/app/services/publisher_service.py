@@ -14,8 +14,7 @@ def publish_data(topic:str,data:list):
         topic: string topic to which data is to be published 
     """
     _config = GenericConfig()    # Pulling configs
-    client = mqtt.Client("PUB1")   # FIXED number for IDENTIFICATION 
-    # client.on_connect = on_connect
+    client = mqtt.Client("PUB-SVC")   # FIXED number for IDENTIFICATION 
     client.connect(**_config.get_mqtt_config())
     client.loop_start()
     for item in data:

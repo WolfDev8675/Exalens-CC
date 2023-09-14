@@ -1,0 +1,7 @@
+redis
+pymongo
+pyyaml
+pyaml-env
+fastapi
+uvicorn
+pydantic

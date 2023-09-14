@@ -40,7 +40,7 @@ File: Your repository should feature a comprehensive file detailing the followin
 
 ### Timeline & Submission
 
-&nbsp;&nbsp;&nbsp;&nbsp; While we understand the complexity and depth of the challenge, three weeks should be sufficient. So, we'd like to ask you to submit your solution by September 18th. Please share the GitHub link of your repository once you've completed the task.
+&nbsp;&nbsp;&nbsp;&nbsp; While we understand the complexity and depth of the challenge, three weeks should be sufficient. So, we'd like to ask you to submit your solution by <b>September 18th</b>. Please share the GitHub link of your repository once you've completed the task.
 
 ### Support
 

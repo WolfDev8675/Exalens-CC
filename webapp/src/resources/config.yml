@@ -1,0 +1,6 @@
+server:
+  port: 9070
+mqtt:
+  service:
+    host: mosquitto_broker
+    port: 1883
