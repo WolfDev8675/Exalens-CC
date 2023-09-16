@@ -12,11 +12,10 @@ def str2dict(strval:str):
             ret_dict[k]= dt.strptime(v,iso8601_format)
         elif k == "value":
             ret_dict[k]= float(v)
+        elif k.startswith("_"):
+            pass # Do Nothing for protected ids ( specific to MongoDB )
         else:
             ret_dict[k]=v
-    
-    # ret_dict.pop("_id")     #Remove '_id' key from dict
-
     return ret_dict
+# EOF
 
-                    

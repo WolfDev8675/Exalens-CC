@@ -3,6 +3,7 @@
 from configs.server_config import Servlet
 from fastapi import FastAPI
 from logging import getLogger
+from routers import sensor_data_router
 
 log=getLogger("webapp|main")
 
@@ -19,6 +20,9 @@ class WebApplication:
     def patchRoutes(self):
         """ Connect all the api-routers applicable in the application """
         log.info(" Linking the api-routers ")
+        self.app.include_router(sensor_data_router.route)
+        
+
         
 
 

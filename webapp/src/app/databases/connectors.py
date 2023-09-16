@@ -7,7 +7,7 @@ from pymongo import MongoClient
 from pymongo.database import Database
 
 
-log = getLogger("subscriber|datastore-connect")
+log = getLogger("webapp|datastore-connect")
 
 class DBConnection:
     cachedb: Redis

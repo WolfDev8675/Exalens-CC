@@ -1,6 +1,27 @@
 server:
+  host: 0.0.0.0
   port: 9070
 mqtt:
   service:
     host: mosquitto_broker
     port: 1883
+app:
+  application-name: WebAPIApplication
+  datastore:
+    cache: 
+      connection-string: ""
+      driver-name: redis
+      host: cache_redis
+      port: 6379
+      database-name: 0
+      username: 
+      password: J9oM3w1bCr9710A
+    persist-store:
+      connection-string: "mongodb://dbadmin:a3Ngrc0Y9RPQYTr@database_mongo:27017/?authMechanism=DEFAULT"
+      driver-name: mongodb
+      host: database_mongo
+      port: 27017
+      database-name: sensordb
+      username: dbadmin
+      password: a3Ngrc0Y9RPQYTr
+    

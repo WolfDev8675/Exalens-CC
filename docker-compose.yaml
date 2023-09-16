@@ -16,6 +16,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - 9050:9050
+    depends_on:
+      - mosquitto_broker
   database_mongo:
     image: mongodb/mongodb-community-server:6.0-ubi8
     restart: always
@@ -24,10 +26,12 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=dbadmin
       - MONGO_INITDB_ROOT_PASSWORD=a3Ngrc0Y9RPQYTr
+      - MONGO_INITDB_DATABASE:sensordb
     volumes:
       - type: bind
         source: ./mongodb/data
         target: /mongodb/data/db
+      - ./mongodb/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js
   cache_redis:
     image: redis:latest
     restart: always
@@ -45,14 +49,21 @@ services:
     build:
       context: ./subscriber
       dockerfile: Dockerfile
-    # ports:
-    #   - 9060:9060
     depends_on:
        - mosquitto_broker
        - cache_redis
        - database_mongo
-    
-
-
-# networks:
-#   mosquitto:
+       - py_publisher
+  py_webapp:
+    image: webapp_api_service
+    build:
+      context: ./webapp
+      dockerfile: Dockerfile
+    ports:
+      - 9070:9070
+    depends_on:
+       - mosquitto_broker
+       - py_publisher
+       - py_subscriber
+       - cache_redis
+       - database_mongo

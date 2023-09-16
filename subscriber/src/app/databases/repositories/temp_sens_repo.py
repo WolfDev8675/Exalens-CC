@@ -35,11 +35,11 @@ class TemperatureCollectionRepository:
             return 1
         return 0
     
-    def write_data_cachedb(self, writable):
+    def write_data_cachedb(self, key, writable):
         """ Write Data into the cache  
         """
         try:
-            self.cache_obj.rpush(sensors.TEMPERATURE_KEY,writable)
+            self.cache_obj.rpush(key,writable)
         except Exception as e:
             print(f"WRITE FAILED {e}")
             return 1
