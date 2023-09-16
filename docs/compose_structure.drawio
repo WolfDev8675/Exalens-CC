@@ -1,9 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T19:12:40.560Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="xfkFF8NBVt1-QED0890y" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T20:25:26.876Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="87AtvpXP47PqBGa0fPPj" version="21.7.5" type="github">
   <diagram name="Page-1" id="TzBhoph3AAJKeZvpLtGo">
-    <mxGraphModel>
+    <mxGraphModel dx="2090" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-74" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-280" y="-710" width="1010" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-1" value="" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-74">
+          <mxGeometry x="19.381663113006397" y="68.57758620689656" width="990.6183368869936" height="361.4224137931035" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/docker-128.png" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-74">
+          <mxGeometry x="10" y="10" width="95.88850174216029" height="95.88850174216029" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-8" value="Docker Compose" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-74">
+          <mxGeometry x="62.45202558635394" y="68.57758620689656" width="118.44349680170575" height="27.801724137931032" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-79" value="" style="group" vertex="1" connectable="0" parent="_8uBK7dtf-MDb6x3Fivi-74">
+          <mxGeometry x="75" y="82.404181184669" width="860" height="274.9303135888502" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-64" value="Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="577" width="60" height="22.473867595818817" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-9" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry y="83.90243902439025" width="130" height="157.31707317073173" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.uvicorn.org/uvicorn.png;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="49" y="83.90243902439025" width="29.96515679442509" height="29.96515679442509" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="10" y="87.72524390243903" width="21.72473867595819" height="26.324390243902442" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png;clipPath=inset(25% 72% 22.22% 9.67%);container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="91.39999999999998" y="83.90243902439025" width="28.91637630662021" height="29.96515679442509" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-47" value="&lt;b&gt;py_publisher&lt;/b&gt;&lt;br&gt;HOST: 0.0.0.0&lt;br&gt;PORTS: 9050&lt;br&gt;depends_on:&amp;nbsp;&lt;br&gt;mosquitto_broker" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="5" y="116.11498257839723" width="120" height="117.61324041811848" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-19" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="550" y="20.226480836236934" width="120" height="93.53623693379791" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-27" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="555" y="22.368989547038336" width="26.751393728222997" height="22.473867595818817" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-55" value="&lt;b&gt;cache_redis&lt;/b&gt;&lt;br&gt;HOST: 0.0.0.0&lt;br&gt;PORT: 6379" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="552.5" y="44.84285714285716" width="115" height="65.27909407665506" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-56" value="Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="20" y="55.757665505226484" width="60" height="22.473867595818817" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-62" value="Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="225" y="65.17421602787456" width="60" height="22.473867595818817" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-63" value="Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="400" y="64.74721254355401" width="60" height="22.473867595818817" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-66" value="Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="760" y="62.17770034843205" width="60" height="22.473867595818817" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-18" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="375" y="83.90243902439025" width="120" height="149.82578397212544" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="380" y="89.46846689895472" width="21.72473867595819" height="26.324390243902442" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-49" value="&lt;b&gt;py_subscriber&lt;/b&gt;&lt;br&gt;depends_on:&lt;br&gt;mosquitto_broker&lt;br&gt;cache_redis&lt;br&gt;database_mongo&lt;br&gt;py_publisher" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="380" y="117.61324041811848" width="110" height="106.37630662020906" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-68" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mosquitto.org/images/mosquitto-text-side-28.png;clipPath=inset(0% 74.67% 0% 0%);container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="415" y="90.89930313588854" width="24.968466898954702" height="19.709581881533104" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-65" value="Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="573" y="128.10104529616729" width="60" height="22.473867595818817" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-20" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="550" y="147.57839721254356" width="120" height="127.35191637630663" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-26" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.mongodb;gradientColor=#DFDEDE;aspect=fixed;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="560" y="151.3240418118467" width="26.219512195121954" height="26.219512195121954" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-53" value="&lt;b&gt;database_mongo&lt;/b&gt;&lt;br&gt;HOST: 0.0.0.0&lt;br&gt;PORT: 27017&lt;br&gt;initdb: init_mongo.js" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="555" y="177.54355400696863" width="110" height="89.89547038327527" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-33" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="730" y="83.90243902439025" width="130" height="157.31707317073173" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-34" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.uvicorn.org/uvicorn.png;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="779" y="83.90243902439025" width="29.96515679442509" height="29.96515679442509" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="740" y="87.72524390243903" width="21.72473867595819" height="26.324390243902442" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-36" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png;clipPath=inset(25% 72% 22.22% 9.67%);container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="821.4" y="83.90243902439025" width="28.91637630662021" height="29.96515679442509" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-67" value="&lt;b&gt;py_webapp&lt;br&gt;&lt;/b&gt;HOST: 0.0.0.0&lt;br&gt;PORT: 9070&lt;br&gt;depends_on:&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;mosquitto_broker&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;py_publisher&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;py_subscriber&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cache_redis&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;database_mongo&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="735" y="117.61324041811848" width="120" height="116.11498257839723" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-17" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="190" y="87.64808362369338" width="130" height="149.82578397212544" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-37" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mosquitto.org/images/mosquitto-text-side-28.png;clipPath=inset(0% 74.67% 0% 0%);container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="200" y="89.46846689895472" width="24.968466898954702" height="19.709581881533104" as="geometry" />
+        </mxCell>
+        <mxCell id="_8uBK7dtf-MDb6x3Fivi-48" value="&lt;b&gt;mosquitto_broker&lt;/b&gt;&lt;br&gt;HOST: 0.0.0.0&lt;br&gt;PORT: 1883" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-79">
+          <mxGeometry x="200" y="117.61324041811848" width="110" height="112.36933797909408" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
