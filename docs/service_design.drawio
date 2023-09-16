@@ -1,9 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T15:29:22.492Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="JA6dVE1hzJZppxgMdxLy" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T16:12:13.086Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="QMmTIg1MlLVpgZQIfkLR" version="21.7.5" type="github">
   <diagram name="Page-1" id="nVXVH24_6JPJPfBgUeSn">
-    <mxGraphModel>
+    <mxGraphModel dx="1457" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-330" y="380" width="150.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-2" value="Publisher&amp;nbsp;&lt;br&gt;(Uvicorn Server)" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-17">
+          <mxGeometry x="0.012499791684023844" width="149.99750020831598" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#E6E6E6;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fastapi.tiangolo.com/img/icon-white.svg;container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-17">
+          <mxGeometry y="25" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png;container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-17">
+          <mxGeometry x="4.67492208982585" y="5" width="16.51" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="310" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-21" value="sensordb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-22">
+          <mxGeometry width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-30" value="" style="group" vertex="1" connectable="0" parent="qG55L7v-Gp6-NmhD3yn5-22">
+          <mxGeometry x="40" y="60" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-28" value="Collections:&lt;br&gt;&lt;ul&gt;&lt;li&gt;humidity&lt;/li&gt;&lt;li&gt;temperature&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-30">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-19" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.mongodb;gradientColor=#DFDEDE;aspect=fixed;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-30">
+          <mxGeometry width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-25" value="Publishes&amp;nbsp;&lt;br&gt;sensor readings" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="qG55L7v-Gp6-NmhD3yn5-2" target="qG55L7v-Gp6-NmhD3yn5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-33" value="writes to&amp;nbsp;&lt;br&gt;persist_db" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qG55L7v-Gp6-NmhD3yn5-26" target="qG55L7v-Gp6-NmhD3yn5-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-34" value="writes to cache" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qG55L7v-Gp6-NmhD3yn5-26" target="qG55L7v-Gp6-NmhD3yn5-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="460" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-29" value="Keys &lt;br&gt;as per the sensor_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-31">
+          <mxGeometry x="30" y="40" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-24" value="" style="group" vertex="1" connectable="0" parent="qG55L7v-Gp6-NmhD3yn5-31">
+          <mxGeometry width="60.9" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-23" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cache_node;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-24">
+          <mxGeometry width="58.71693448702103" height="58.71693448702103" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-20" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-24">
+          <mxGeometry x="42.97627935723114" y="52.05128205128205" width="17.923720642768853" height="15.055624227441289" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="370" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-4" value="Mosquitto Broker&lt;br&gt;(MQTT protocol)" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-36">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mosquitto.org/images/mosquitto-text-side-28.png;clipPath=inset(0% 74.33% 0% 0%);container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-36">
+          <mxGeometry width="32.74" height="25.51" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-35" value="Topics:&lt;br&gt;&lt;ul&gt;&lt;li&gt;sensors/temperature&lt;/li&gt;&lt;li&gt;sensors/humidity&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-36">
+          <mxGeometry x="33" y="60" width="167" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-37" value="sensors/temperature" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="qG55L7v-Gp6-NmhD3yn5-4" target="qG55L7v-Gp6-NmhD3yn5-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-38" value="sensors/humidity" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qG55L7v-Gp6-NmhD3yn5-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="413" as="sourcePoint" />
+            <mxPoint x="345" y="413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-41" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="766.26" y="303" width="163.74" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-10" value="WebApp&lt;br&gt;(Uvicorn Server)" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-41">
+          <mxGeometry x="1.0035414941196081" width="162.7364585058804" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#E6E6E6;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://fastapi.tiangolo.com/img/icon-white.svg;container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-41">
+          <mxGeometry y="23" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png;container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-41">
+          <mxGeometry x="5.0719529567666175" y="3" width="16.51" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="400" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-26" value="Subscriber" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-42">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qG55L7v-Gp6-NmhD3yn5-40" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png;container=0;" vertex="1" parent="qG55L7v-Gp6-NmhD3yn5-42">
+          <mxGeometry x="4" y="3" width="16.51" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
