@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T20:26:32.361Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FZgYtbmUrPvavfM1aMjL" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T20:26:44.602Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TII8FuzAvdSW2gDcfp39" version="21.7.5" type="github">
   <diagram name="Page-1" id="TzBhoph3AAJKeZvpLtGo">
     <mxGraphModel dx="2090" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="19.381663113006397" y="68.57758620689656" width="990.6183368869936" height="361.4224137931035" as="geometry" />
         </mxCell>
         <mxCell id="_8uBK7dtf-MDb6x3Fivi-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/docker-128.png" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-74">
-          <mxGeometry width="95.88850174216029" height="95.88850174216029" as="geometry" />
+          <mxGeometry x="19.38" y="10" width="95.88850174216029" height="95.88850174216029" as="geometry" />
         </mxCell>
         <mxCell id="_8uBK7dtf-MDb6x3Fivi-8" value="Docker Compose" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_8uBK7dtf-MDb6x3Fivi-74">
           <mxGeometry x="62.45202558635394" y="68.57758620689656" width="118.44349680170575" height="27.801724137931032" as="geometry" />
