@@ -9,10 +9,10 @@ Source: [Home Designing](https://www.home-designing.com/)
 
 Typically we have a the basic structure of a small apartment with
 
-* one bedroom
-* one washroom
-* a kitchen area
-* a living room
+* One bedroom
+* One washroom
+* A kitchen & dining area
+* A living space
 
 Here we are targetting that we have a temperature and a corresponding humidity sensor measureing the respective climate in each of the living spaces in the apartment, a climate control system in short.
 
@@ -42,9 +42,11 @@ Overall, climate control in IoT involves using sensors, data collection, and aut
 With these points established we setout to develop on this project.
 
 ---
-Jump into: <br>
-&emsp;&emsp;[Next: Setup](./setup.md)
-</br>
+Jump into:
+
+* Next: [Setup](./setup.md)
+
+<br>&emsp;[Table of Contents](./docs.md)</br>
 
 ---
 &copy; [Bishal Biswas](mailto:b.biswas_94587@ieee.org)
