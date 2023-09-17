@@ -2,6 +2,7 @@ version: '3.7'
 services:
   mosquitto_broker:
     image: mosquitto_service
+    restart: always
     build:
       context: ./mosquitto
       dockerfile: Dockerfile
@@ -11,6 +12,7 @@ services:
       - "1883"
   py_publisher:
     image: publisher_service
+    restart: always
     build:
       context: ./publisher
       dockerfile: Dockerfile
@@ -46,6 +48,7 @@ services:
       - ./redis.conf:/usr/local/etc/redis/redis.conf
   py_subscriber:
     image: subscriber_service
+    restart: always
     build:
       context: ./subscriber
       dockerfile: Dockerfile
@@ -56,6 +59,7 @@ services:
        - py_publisher
   py_webapp:
     image: webapp_api_service
+    restart: always
     build:
       context: ./webapp
       dockerfile: Dockerfile
