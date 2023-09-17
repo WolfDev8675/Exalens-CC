@@ -4,11 +4,13 @@ The Project required us to set up various functionalities ([check here](../codin
 
 To account for the some design liberties as well as sticking to best practices for a RESTful suite of services the Docker-Compose is structured in a way as shown below
 
-![Docker-compose-design](./designs/exported_images/compose_structure.jpg)
+![Docker-compose-design.jpg](./designs/exported_images/compose_structure.jpg)
+Docker-Compose structure
 
 and the services are created according to the following design.
 
-![Service-design](./designs/exported_images/service_design.jpg)
+![Service-design.jpg](./designs/exported_images/service_design.jpg)
+Service Design
 
 Each component(container) of the Docker-Compose is described as
 
