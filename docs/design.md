@@ -40,14 +40,14 @@ Each component(container) of the Docker-Compose is described as
     * host: 0.0.0.0
     * port: 6379
 
-    starts up a redis cache with pre-configured details. This is required by the challenge to implement a chache memory for data to be written into available instantly in short interval without downtime.
+    starts up a redis cache with pre-configured details. This is required by the challenge to implement a cache memory for data to be written into available instantly in a short interval without downtime.
 5. Subscriber
     * name: py_subscriber
     * listens to: monsquitto_broker
     * depends on: database_mongo, cache_redis and mosquitto_broker
     * language: Python 3.11.4
 
-    subscription service with the sole purpose to keep listening to the subscription channels in the broker(Mosquitto Broker), proccess the data recieved and send them to be stored in the Cache(Redis) and Database(MongoDB Server).
+    subscription service with the sole purpose to keep listening to the subscription channels in the broker(Mosquitto Broker), process the data received and send them to be stored in the Cache(Redis) and Database(MongoDB Server).
 6. WebApp(Device Data Web Application)
     * name: py_webapp
     * host: 0.0.0.0

@@ -1,6 +1,6 @@
 # Setup
 
-To account for the requirements of this project (check: [Coding Problem](../coding_problem.md)) all the functionalities of this project is collected into a single docker-compose file which can be used to start-up or shut-down the systems with single commands.
+To account for the requirements of this project (check: [Coding Problem](../coding_problem.md)) all the functionalities of this project are collected into a single docker-compose file which can be used to start-up or shut-down the systems with single commands.
 
 ## Prerequisites
 
