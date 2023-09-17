@@ -1,4 +1,4 @@
-# Coding Challenge questionaire
+# Coding Challenge questionnaire
 
 Complete problem statement for the Coding Challenge as in the Mail
 
