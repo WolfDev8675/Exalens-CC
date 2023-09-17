@@ -7,6 +7,6 @@ Purpose: Defines the ID of the various sensors
 TEMPERATURE_TOPIC = "sensors/temperature"
 HUMIDITY_TOPIC = "sensors/humidity"
 
-# REDIS KEYS 
+# REDIS KEYS
 TEMPERATURE_KEY = "SENSOR/TEMPERATURE"
 HUMIDITY_KEY = "SENSOR/HUMIDITY"

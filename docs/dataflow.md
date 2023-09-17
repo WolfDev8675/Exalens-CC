@@ -10,7 +10,7 @@ This system is designed to efficiently manage the flow of data from a Publisher 
 **2. Broker:**
 
 * The Broker acts as an intermediary, receiving data from the Publisher and forwarding it to Subscribers.
-* It is responsible for topic*based message routing and delivery.
+* It is responsible for topic-based message routing and delivery.
 * The Broker maintains a list of active Subscribers for each topic.
 
 **3. Subscriber:**
@@ -23,13 +23,13 @@ This system is designed to efficiently manage the flow of data from a Publisher 
 
 **4. Cache:**
 
-* The cache acts as a high*speed, in*memory storage system for recently received data.
-* It enables rapid data retrieval for real*time or frequently accessed information.
+* The cache acts as a high-speed, in-memory storage system for recently received data.
+* It enables rapid data retrieval for real-time or frequently accessed information.
 * The cache enhances system performance by reducing the need to access the database for every data request.
 
 **5. Database:**
 
-* The database serves as the long*term data storage solution.
+* The database serves as the long-term data storage solution.
 * It stores historical and persistent data that can be queried and analyzed over time.
 * Data in the database is structured, indexed, and optimized for efficient retrieval.
 
@@ -37,16 +37,16 @@ This system is designed to efficiently manage the flow of data from a Publisher 
 
 * The web application provides an interface for users to access and query the data stored in the system.
 * It communicates with both the cache and the database to retrieve data based on user requests.
-* Users can access real*time and historical data through the API, making it a central point for interacting with the system.
+* Users can access real-time and historical data through the API, making it a central point for interacting with the system.
 
 ## **Data Flow Summary:**
 
 * Data originates from the Publisher and is channeled through the Broker.
 * Subscribers receive, process, and store data in both the cache and the database.
-* The cache serves as a performance*enhancing layer, while the database stores long*term data.
+* The cache serves as a performance-enhancing layer, while the database stores long-term data.
 * The web application/API connects to both the cache and the database, providing users with seamless access to data.
 
-This orchestrated data flow ensures that data is efficiently collected, stored, and made available for consumption, catering to real*time and historical data needs within the system.
+This orchestrated data flow ensures that data is efficiently collected, stored, and made available for consumption, catering to real-time and historical data needs within the system.
 
 ![DataFlow.jpg](./designs/exported_images/dataflows.jpg)
 Flow of Data

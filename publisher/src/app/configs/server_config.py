@@ -14,9 +14,8 @@ class Servlet:
         self.host = _get_Config.get_server_host()
         self.port = _get_Config.get_server_port()
 
-
     def configure_server(self, api) -> uvicorn.Server:
-        """ Configure server to host the required API """
+        """Configure server to host the required API"""
         api.patchRoutes()
         config = uvicorn.Config(api.app, host=self.host, port=self.port)
 

@@ -1,11 +1,11 @@
 #!usr/bin/python3
 
-# IMPORTS 
+# IMPORTS
 from pydantic import BaseModel
 
 
 class SensorDataResponse(BaseModel):
-    data:list[object]
+    data: list[object]
 
 
 class Errors(BaseModel):
