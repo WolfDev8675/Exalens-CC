@@ -4,7 +4,7 @@
 
 This is a project for the Recruitment to the Exalens.
 
-Courtesy: Question credits belong to recruting team @[Exalens](https://www.exalens.com/)
+Courtesy: Question credits belong to recruiting team @[Exalens](https://www.exalens.com/)
 
 ---
 Purpose: Simulate the behaviour of sensors, monitor their readings, and provide APIs to retrieve data based on specific criteria.

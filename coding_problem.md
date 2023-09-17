@@ -45,3 +45,6 @@ File: Your repository should feature a comprehensive file detailing the followin
 ### Support
 
 If you have any technical questions or require clarification on the challenge, please make decisions based on your understanding.
+
+---
+&copy; [Bishal Biswas](mailto:b.biswas_94587@ieee.org)
