@@ -3,8 +3,8 @@
 This project is required to prove to the recruitment team of @[Exalens](https://www.exalens.com) regarding the efficacy of knowledge and the development of this Full Stack Project.
 
 This project serves the purpose of mocking the behaviour of different sensors in a typical IoT environment and the devices, with monitoring and logging the climate.Let us consider an apartment like the one below.
-
-![Apartment](https://www.home-designing.com/wp-content/uploads/2014/06/Springs-Apartments-1-Bedroom.jpg)
+<br>
+![Apartment](https://www.home-designing.com/wp-content/uploads/2014/06/Springs-Apartments-1-Bedroom.jpg)</br>
 Source: [Home Designing](https://www.home-designing.com/)
 
 Typically we have a the basic structure of a small apartment with
