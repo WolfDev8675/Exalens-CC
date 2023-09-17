@@ -53,7 +53,7 @@ Each component(container) of the Docker-Compose is described as
     * depends on: all other services to be up before starting
     * language: Python 3.11.4
 
-    an ASGI Web Server(UVICORN) API Application that provides the APIs for interacting with the data stored in the Cache and Database. Please check [API Documentation](./apidoc.md) for more information on the APIs available.
+    an ASGI Web Server(UVICORN) API Application that provides the APIs for interacting with the data stored in the Cache and Database. Please check [API Documentation](./apidoc.md) for more information on the API endpoints available and querying them.
 
 All these services coordinate together to bring up the service design to fruition.
 
