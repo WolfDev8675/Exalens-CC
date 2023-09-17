@@ -45,7 +45,7 @@ services:
     ports:
       - 6379:6379/tcp
     volumes:
-      - ./redis.conf:/usr/local/etc/redis/redis.conf
+      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
   py_subscriber:
     image: subscriber_service
     restart: always

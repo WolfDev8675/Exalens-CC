@@ -27,7 +27,7 @@ Each component(container) of the Docker-Compose is described as
     * depends on: mosquitto_broker
     * language: Python 3.11.4
 
-    runs in an ASGI Server Appplication(UVICORN) to send data of the various sensors(total: 8) to the broker at a timed interval of 5 seconds. The service is scheduled to send out a publish message to the broker for all the Temperature sensors together and the Humidity sensors together. This service requires **Mosquitto Broker** service to be up and running before itself starting up.
+    runs in an ASGI Server Appplication(UVICORN) to send data of the various sensors(total: 8) to the broker at a timed interval of 5 seconds. The service is scheduled to send out a publish message to the broker for all the Temperature sensors together and the Humidity sensors together. This service requires **Mosquitto Broker** service to be up and running before itself starting up. This could be down otherwise also but thinking in terms of best-practices for coding service was made to run in a server with scheduler rather than a infinite keep-alive loop which can introduce race-round and heap-memory failure.
 3. MongoDB Server
     * name: database_mongo
     * host: 0.0.0.0
